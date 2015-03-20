@@ -47,14 +47,31 @@ table {
 	border-spacing: 0;
 }
 
+/* END RESET */
 
 
-/* Background Color and Div Boarder */
-
-body {
-	background-color: LightGray;
+.content {
+	padding: 0 15px;
 }
 
-div {
-	border:1 px solid Chocolate;
+
+/* Nav Properties */
+
+.Navigation {
+	background-color: #fff;
+}
+
+.Navigation > .content {
+	margin: 0 auto;
+	width: 970px;
+	height: 70px;
+}
+
+.Navigation > .links {
+	float:right;
+}
+
+.Navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
 }
