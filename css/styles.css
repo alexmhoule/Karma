@@ -67,7 +67,7 @@ table {
 }
 
 .Navigation .logo {
-    height: 70px;
+    height: 55px;
 }
 
 /* LINKS */
@@ -96,4 +96,15 @@ table {
 .Navigation .links > .active {
     color: #4c5058;
     font-weight: 600;
+}
+
+
+/* INTRODUCTION */
+
+.introduction {
+    background-image: url('img src="images/BG_IMG.jpeg"');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
 }
