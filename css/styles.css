@@ -103,12 +103,26 @@ table {
 
 /* INTRODUCTION SECTION */
 
-.introduction{
+.introduction {
     background-image: url('../images/BG_IMG.jpeg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+}
+
+.introduction h1 {
+    font-size: 3.125rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.introduction h3 {
+    font-size: 1.563rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
 }
 
 
@@ -124,4 +138,17 @@ table {
     color: white;
     width:9.688 rem;
     font-size: 1.125 rem;
+}
+
+
+/* THREE IMAGES */
+
+.devices li {
+    display: inline-block;
+    width: 33.3333333%;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+
 }
