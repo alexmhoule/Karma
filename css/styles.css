@@ -49,12 +49,14 @@ table {
 
 /* END RESET */
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
 
 .content {
 	/* padding: 0 15px; */
     padding: 0 0.938rem;
     margin:0 auto;
-    width:970px;
 }
 
 
@@ -63,7 +65,7 @@ table {
 .Navigation {
     background-color: #fff;
     position: fixed;
-    width: 100%;
+    width:100%;
     z-index: 9999;
 }
 .Navigation > .content {
@@ -72,14 +74,14 @@ table {
 }
 
 .Navigation .logo {
-    height: 4.375rem;
+    height: 2rem;
+    margin-top: 15px;
 }
 
 /* LINKS */
 
 .Navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -129,14 +131,18 @@ table {
     color: white;
     text-align: center;
     font-weight: 300;
+    width:970px;
+    width:100%;
 }
 
 
 /* BUTTON STYLE */
 
 .introduction .buttons {
-    margin-top: 1.563rem;
+    margin-top: 2rem;
     text-align: center;
+    width:970px;
+    width:100%;
 }
 
 button {
@@ -152,6 +158,10 @@ button {
     margin:0 auto;
 }
 
+button:hover {
+	background-color: #ec3c03;
+	cursor: pointer;
+}
 
 /* THREE IMAGES */
 
@@ -212,8 +222,8 @@ button {
 
 .social .icons > li {
     border-radius: 1.25rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 1rem;
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
