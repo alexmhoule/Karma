@@ -134,21 +134,31 @@ table {
 
 /* BUTTON STYLE */
 
-.big-BTN {
+.introduction .buttons {
+    margin-top: 1.563rem;
+    text-align: center;
+}
+
+button {
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 16px 26px;
+    padding: 1rem 1.5rem;
     line-height: 1.33;
     background-color: #f15a29;
     color: white;
-    width:9.688 rem;
-    font-size: 1.125 rem;
+    width: 9.688rem;
+    font-size: 1.125rem;
     margin:0 auto;
 }
 
 
 /* THREE IMAGES */
+
+.cases {
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
 
 .devices li {
     display: inline-block;
@@ -156,7 +166,6 @@ table {
     float:left;
     overflow: hidden;
     padding-bottom: 5rem;
-    margin-top: 7.875rem;
     text-align: center;
     /* styles to assist with debugging 
     border: 1px solid black;
@@ -177,4 +186,57 @@ table {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
+}
+
+
+/* FOOTER */
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+.social .copy {
+    font-size: .9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f7295;
 }
